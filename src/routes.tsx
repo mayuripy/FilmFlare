@@ -1,43 +1,34 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./page/home";
-import Error from "./page/error";
+import Home from "./pages/home";
+import Error from "./pages/error";
+import Movies from "./pages/movies";
+import TVseries  from "./pages/tv-series";
+import Bookmarks from "./pages/bookmarks";
+
 
 
 export const router =createBrowserRouter([
    {
     path:"/",
-    element:<Home />,
-    errorElement:<Error />
+    element: <Home />,
+    errorElement: <Error />
    },
 
    {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
+    path:"/movies",
+    element: <Movies/>,
+    
    },
    {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
+    path:"/tv-series",
+    element: <TVseries/>,
+    
    },
    {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
+    path:"/bookmarks",
+    element: <Bookmarks />,
+    
    },
-   {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
-   },
-   {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
-   },
-   {
-    path:"/",
-    element:<Home />,
-    errorElement:<Error />
-   },
+  
+  
 ]);

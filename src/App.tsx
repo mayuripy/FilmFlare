@@ -1,5 +1,6 @@
 import React from 'react'
 import {RouterProvider} from "react-router-dom";
+import {router}from "./router";
 
 function App() {
   
@@ -7,4 +8,4 @@ function App() {
   
 }
 
-export default App
+export default App;
