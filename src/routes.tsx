@@ -10,7 +10,7 @@ import Bookmarks from "./pages/bookmarks";
 export const router =createBrowserRouter([
    {
     path:"/",
-    element: <Home />,
+    element: <Home/>,
     errorElement: <Error />
    },
 
@@ -26,7 +26,7 @@ export const router =createBrowserRouter([
    },
    {
     path:"/bookmarks",
-    element: <Bookmarks />,
+    element: <Bookmarks/>,
     
    },
   
