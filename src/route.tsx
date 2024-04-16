@@ -11,7 +11,7 @@ export const router =createBrowserRouter([
    {
     path:"/",
     element: <Home/>,
-    errorElement: <Error />
+    errorElement: <Error/>
    },
 
    {
@@ -26,7 +26,7 @@ export const router =createBrowserRouter([
    },
    {
     path:"/bookmarks",
-    element: <bookmarks/>,
+    element: <Bookmarks/>,
     
    },
   
@@ -34,7 +34,7 @@ export const router =createBrowserRouter([
 ]);
 
 
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Home from './pages/Home';
 // import Movies from './pages/Movies';
 // import TVseries from './pages/tv-series';
